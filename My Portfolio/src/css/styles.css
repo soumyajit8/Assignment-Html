@@ -4,6 +4,9 @@ body{
     text-rendering: optimizeLegibility;
 }
 
+.text{
+  text-align: center;
+}
 .feature{
     text-align: center
 }
