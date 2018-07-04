@@ -1,0 +1,104 @@
+
+body{
+    -webkit-font-smoothing:antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.feature{
+    text-align: center
+}
+.feature image{
+    margin: 0 0 20px;
+}
+
+
+   #searchInput{
+       width: 200px;
+   }
+   .navbar-brand{
+       padding: 13px 15px;
+   }
+
+.jumbotron{
+
+
+}
+
+#myCarousel{
+    height: 50%;
+    width: 100%;
+}
+.shadow{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(7, 7, 7);
+    text-shadow:
+    0 1px 0 white,
+    1px 1px 0 tan;
+}
+
+
+.well{
+    margin: 20px 0;
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (min-width: 1200px) {
+    #myCarousel .item{
+        height: 500px;
+    }
+
+}
+.pageheader{
+    background-image: url(../../images/hero.jpg);
+}
+.image{
+    width: 50%;
+    height: 50%;
+    padding-top: .10cm;
+}
+.image2{
+  background-image: url(images/hero.jpg);
+  width: 100%;
+  height: 50;
+
+}
+.WelCome{
+  text-align: center;
+}
+.col1{
+    font-style: oblique;
+    text-align: center;
+    background: grey;
+}
+.row1{
+    background-color: beige;
+    font-style: italic;
+    text-align: justify;
+}
+.row2{
+    background-color: #e3e3e3;
+    text-align: justify;
+    font-style: italic;
+}
+.row3{
+    background-color: aliceblue;
+    text-align: justify;
+    font-style: italic;
+}
+#moreInfo{
+  text-align: center;
+}
+
+.color{
+  background-color: grey;
+  font-style: italic;
+  font-color: white;
+  font-size: 10px;
+}
