@@ -18,10 +18,6 @@ body{
        padding: 13px 15px;
    }
 
-.jumbotron{
-
-
-}
 
 #myCarousel{
     height: 50%;
@@ -40,6 +36,8 @@ body{
     margin: 20px 0;
 }
 
+/*----Media Query----*/
+
 @media (max-width: 480px) {
 
 }
@@ -54,43 +52,52 @@ body{
     }
 
 }
-.pageheader{
-    background-image: url(../../images/hero.jpg);
-}
+
+/*----Carousel---*/
+
 .image{
     width: 50%;
     height: 50%;
     padding-top: .10cm;
 }
+
 .image2{
   background-image: url(images/hero.jpg);
   width: 100%;
   height: 50;
 
 }
+
 .WelCome{
   text-align: center;
 }
+
 .col1{
     font-style: oblique;
     text-align: center;
     background: grey;
 }
+
+/*-----2-Column 3-Row Section*/
+  
 .row1{
     background-color: beige;
     font-style: italic;
     text-align: justify;
 }
+
 .row2{
     background-color: #e3e3e3;
     text-align: justify;
     font-style: italic;
 }
+
 .row3{
     background-color: aliceblue;
     text-align: justify;
     font-style: italic;
 }
+
 #moreInfo{
   text-align: center;
 }
