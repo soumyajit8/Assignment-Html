@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
+	
 	<head>
-		<title></title>
-		<meta name="description" content="">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>My Portfolio 1</title>
+
+		<meta charset="UTF-8">
+
+		<meta name="description keywords" content="Free Web tutorials HTML,CSS,XML,JavaScript">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -20,15 +25,17 @@
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
- crossorigin="anonymous">
+ 		crossorigin="anonymous">
 
 	</head>
+
 	<body>
-	   <div class="container" id="main">
+		<!-- NavBar Starts-->
+	   <nav>
 			<div class="navbar navbar-fixed-top">
 				<div class="container">
-					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-
+					<button 
+						class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
 					</button>
 					<a class="navbar-brand shadow" href="/">SOUMYAJIT</a>
 					<div class="nav-collapse collapse navbar-responsive-collapse">
@@ -48,14 +55,16 @@
 						</ul>
 
 						<form class="navbar-form pull-left">
-							<input type="text" class="form-control" placeholder="Search this site.." id="searchInput">
+							<input type="text" class="form-control" placeholder="Search this site.." id="searchInput"/>
 
 							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
 						</form>
 					</div>
 				</div>
 			</div>
-		</div>
+		</nav>
+		<!-- Nav Bar Ends-->
+		<!-- Carousel Section Starts-->
 		<div class="container" id="main">
 			<div class="carousel slide" id="myCarousel">
 
@@ -67,13 +76,13 @@
 
 				<div class="carousel-inner">
 					<div class="item active" id="slide1">
-						<img src="images//Background.jpg">
+						<img src="images//Background.jpg" alt="Background">
 						<div class="carousel-caption">
 							<h4>My</h4>
 						</div>
 					</div>
 					<div class="item " id="slide2">
-							<img src="images//Background2.jpg">
+							<img src="images//Background2.jpg" alt="Background2">
 							<div class="carousel-caption">
 								<h4>Portfolio</h4>
 							</div>
@@ -85,23 +94,28 @@
 			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
 		</div>
 
+		<!-- Carousel Section Ends-->
 
 
-	<!-- <div class="jumbotron">
-		<h2>That's Me</h2>
-		<p>Lorem ipsum dolor sit amet,
-		consectetur adipisicing elit.</p>
-	</div> -->
 
-<br>
-<br>
+		<!-- <div class="jumbotron">
+			<h2>That's Me</h2>
+			<p>Lorem ipsum dolor sit amet,
+			consectetur adipisicing elit.</p>
+		</div> -->
+
+		<br>
+		<br>
+		<!--3 Column Grid Section Starts-->
 		<div class="row" id="features">
 			<div class="col-sm-4 feature">
 				<div class="panel">
 					<div class="panel-heading">
 						<h3 class="panel-title">About</h3>
 					</div>
-					<img class="image" src="images/About.jpg" alt="About"/>
+
+						<img class="image" src="images/About.jpg" alt="About"/>
+						
 					<p class="text-justify" style="font-family: 'Raleway', sans-serif;">
 						Hello there my name is SOUMYAJIT DAS . I am bachelor in B.Tech in COMPUTER SCIENCE AND
 						ENGINEERING from NIT AGARTALA . I have joined in IBM as a Associate System Engineer in
@@ -118,14 +132,14 @@
 						<h3 class="panel-title">Portfolio</h3>
 					</div>
 
-					<img class="image" src="images/Portfolio.jpg" alt="Portfolio"/>
+						<img class="image" src="images/Portfolio.jpg" alt="Portfolio"/>
 
-						<p class="text-justify" style="font-family: 'Raleway', sans-serif;" >
-							As a fresher I don't have any proper job experience,but now through the learning program
-							in STACKROUTE i am learning the Frontend Development through HTML 5 and CSS in my first week.
-							Then in the coming week we will also be introduced to Backend and also Middleware Development.
-							So after that I can be called as a Full Stack Developer.
-						</p>
+					<p class="text-justify" style="font-family: 'Raleway', sans-serif;" >
+						As a fresher I don't have any proper job experience,but now through the learning program
+						in STACKROUTE i am learning the Frontend Development through HTML 5 and CSS in my first week.
+						Then in the coming week we will also be introduced to Backend and also Middleware Development.
+						So after that I can be called as a Full Stack Developer.
+					</p>
 				</div>
 			</div>
 
@@ -135,7 +149,7 @@
 						<h3 class="panel-title">Hobbies</h3>
 					</div>
 
-					<img class="image" src="images/Hobby.jpg" alt="Hobby"/>
+						<img class="image" src="images/Hobby.jpg" alt="Hobby"/>
 
 					<p class="text-justify" style="font-family: 'Raleway', sans-serif;">
 						My hobbies mainly include listening to music and also in free time singing also
@@ -147,7 +161,10 @@
 
 				</div>
 			</div>
-	 </div>
+	 	</div>
+
+	 <!--3 Column Grid Section Ends-->
+	 <!--Hero Page Starts-->
 	 <div class="container">
 	 <div class="row" id="bigCallout">
 			<div class="col_12">
@@ -157,14 +174,17 @@
 				<div class="well ">
 					<img class="img-fluid image2" src="images/hero.jpg" alt="image">
 					<div class="page-header">
-					<h1 class="WelCome">WelCome To My Page</h1>
+						<h1 class="WelCome">WelCome To My Page</h1>
+					</div>
 				</div>
 			</div>
-		</div>
-	 </div>
- </div>
- <br>
- <br>
+	 	</div>
+ 	</div>
+
+	<!--Hero Page Ends-->
+	<br>
+	<br>
+	<!--3-Column 3-Rows Grid Section Starts-->
 	<div class="container">
 		<div class="col-12">
 			<header class="col-6 col1">
@@ -204,9 +224,13 @@
 			</div>
 		</div>
 	</div>
+
+		<!--3 Column 3 Rows Grid Section Ends-->
+
+		<!--Tab Section Starts-->
 		<div class="row" id="moreInfo">
 	        <div class="col-sm-12">
-				<br>
+					<br>
 					<h3>Location content</h3>
 					<br>
 					
@@ -239,47 +263,55 @@
 							</div>
 						</div>
 					</div>
-				</div>
 			</div>
-			<br>
-			<br>
-			<footer class="color">
-				<div class="container">
-					<div class="row">
-
-						<div class="col-sm-6">
-							<h3>Contact Info</h3>
+		</div>
+		<!--Tab Section Ends-->
+		<br>
+		<br>
+		<!-- Footer Section Starts -->
+		<footer class="color">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<h3>Contact Info</h3>
 							<ul class="unstyled">
 								<li>Mobile No - 8119812422</li>
 								<li>Personal Mail - dassoumyajit1996@gmail.com</li>
 								<li>Bussiness Mail - soudas69@in.ibm.com</li>
 							</ul>
-						</div><!-- end col-sm-2 -->
+					</div><!-- end col-sm-2 -->
 
-						<div class="col-sm-6">
-							<h3>Follow Me</h3>
-							<ul class="unstyled">
+					<div class="col-sm-6">
+						<h3>Follow Me</h3>
+						<ul class="unstyled">
+							<li>
 								<a href="https://www.linkedin.com/in/soumyajit-das-a8a315128/">
-				<i class="fab fa-linkedin"></i>
-			</a>
-			<a href="https://www.facebook.com/soumyajit.das.169067">
-				<i class="fab fa-facebook-square"></i>
-			</a>
-			<a href="https://github.com/settings/profile">
-				<i class="fab fa-github-square"></i>
-			</a>
-							</ul>
-						</div><!-- end col-sm-2 -->
-					</div><!-- end row -->
-				</div><!-- end container -->
-			</footer>
+									<i class="fab fa-linkedin"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/soumyajit.das.169067">
+									<i class="fab fa-facebook-square"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://github.com/settings/profile">
+									<i class="fab fa-github-square"></i>
+								</a>
+							</li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+		<!-- Footer Section Ends -->
 
-	<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="http://code.jquery.com/jquery.js"></script>
 
-	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+		<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
 
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
 
-	<script src="includes/js/script.js"></script>
-</body>
+		<script src="includes/js/script.js"></script>
+	</body>
 </html>
