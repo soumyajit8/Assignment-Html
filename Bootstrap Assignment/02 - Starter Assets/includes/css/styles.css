@@ -66,7 +66,7 @@ body{
 .image2{
   background-image: url(images/hero.jpg);
   width: 100%;
-  height: 50;
+  height: 50px;
 
 }
 .WelCome{
@@ -75,7 +75,7 @@ body{
 .col1{
     font-style: oblique;
     text-align: center;
-    background: grey;
+    background: gray;
 }
 .row1{
     background-color: beige;
@@ -99,6 +99,6 @@ body{
 .color{
   background-color: grey;
   font-style: italic;
-  font-color: white;
+  color: white;
   font-size: 10px;
 }
