@@ -10,7 +10,7 @@ body{
     margin: 0 0 20px;
 }
 
-
+/*---- Navbar ----*/
    #searchInput{
        width: 200px;
    }
@@ -19,10 +19,7 @@ body{
    }
 
 
-#myCarousel{
-    height: 50%;
-    width: 100%;
-}
+
 .shadow{
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(7, 7, 7);
@@ -35,6 +32,7 @@ body{
 .well{
     margin: 20px 0;
 }
+
 
 /*----Media Query----*/
 
@@ -66,6 +64,11 @@ body{
   width: 100%;
 
 }
+#myCarousel{
+    height: 50%;
+    width: 100%;
+}
+
 /*----Hero---*/
 .WelCome{
   text-align: center;
